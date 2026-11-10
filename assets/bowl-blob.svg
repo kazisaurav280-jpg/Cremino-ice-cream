@@ -1,0 +1,14 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="472" height="432" viewBox="0 0 472 432" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Frame 15" clip-path="url(#clip0_0_107)">
+<ellipse id="Ellipse 1" cx="127.696" cy="147.151" rx="302" ry="165.823" transform="rotate(27.1103 127.696 147.151)" fill="url(#paint0_radial_0_107)"/>
+</g>
+<defs>
+<radialGradient id="paint0_radial_0_107" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(127.696 147.151) scale(302 165.823)">
+<stop stop-color="#464444"/>
+<stop offset="1" stop-color="#464444" stop-opacity="0"/>
+</radialGradient>
+<clipPath id="clip0_0_107">
+<rect width="472" height="432" fill="white"/>
+</clipPath>
+</defs>
+</svg>
