@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ice-creams — Cremino</title>
+<meta name="description" content="Browse Cremino's small-batch ice cream flavors and prices.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Noto+Sans:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============ PAGE HERO ============ -->
+<header class="hero hero-page hero-flavors">
+  <div class="wrap">
+    <nav class="nav" aria-label="Main">
+      <a class="logo" href="index.html" aria-label="Cremino home">
+        <img src="assets/logo-mark.svg" alt="" width="60" height="60">
+        <span>Cremino</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="ice-creams.html" class="active" aria-current="page">Ice-creams</a></li>
+        <li><a href="career.html">Career</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <button class="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+        <img src="assets/m-icon-menu.svg" alt="" width="22" height="22">
+      </button>
+    </nav>
+
+    <div class="page-head">
+      <div class="page-title">
+        <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a> / <span aria-current="page">Ice-creams</span></nav>
+        <h1>Ice-creams</h1>
+      </div>
+      <img class="page-hero-img" src="assets/about/hero-scoops.png" alt="Vanilla and strawberry scoops with caramel and chocolate drizzle" width="457" height="313">
+    </div>
+  </div>
+</header>
+
+<!-- Mobile menu overlay -->
+<div class="mobile-menu" id="mobile-menu" hidden>
+  <div class="nav">
+    <a class="logo" href="index.html" aria-label="Cremino home">
+      <img src="assets/logo-mark.svg" alt="" width="36" height="36">
+      <span>Cremino</span>
+    </a>
+    <button class="menu-close" type="button" aria-label="Close menu">
+      <img src="assets/m-icon-close.svg" alt="" width="22" height="22">
+    </button>
+  </div>
+  <ul class="mm-links">
+    <li><a href="index.html"><span>Home</span><img src="assets/m-icon-arrow-dark.svg" alt="" width="22" height="22"></a></li>
+    <li><a href="about.html"><span>About</span><img src="assets/m-icon-arrow-dark.svg" alt="" width="22" height="22"></a></li>
+    <li><a href="ice-creams.html" class="active" aria-current="page"><span><i class="dot"></i>Ice-creams</span><img src="assets/m-icon-arrow-pink.svg" alt="" width="22" height="22"></a></li>
+    <li><a href="career.html"><span>Career</span><img src="assets/m-icon-arrow-dark.svg" alt="" width="22" height="22"></a></li>
+    <li><a href="#"><span>Contact</span><img src="assets/m-icon-arrow-dark.svg" alt="" width="22" height="22"></a></li>
+  </ul>
+</div>
+
+<main>
+<!-- ============ FLAVOR LIST ============ -->
+<section class="flavor-list" aria-label="Our flavors">
+  <article class="flavor">
+    <img class="flavor-img" src="assets/ice-creams/vanilla-bean.png" alt="Vanilla bean ice cream in a waffle cone" width="240" height="240" loading="lazy">
+    <div class="flavor-card">
+      <h2>Vanilla Bean</h2>
+      <p class="price">55 BDT</p>
+      <button type="button" class="btn btn-pink" data-popup-open="flavor-popup" aria-haspopup="dialog">Detail <img src="assets/icon-arrow-white.svg" alt="" width="24" height="24"></button>
+    </div>
+  </article>
+  <article class="flavor">
+    <img class="flavor-img" src="assets/ice-creams/almond-crunch.png" alt="Chocolate-coated almond ice cream bar" width="240" height="240" loading="lazy">
+    <div class="flavor-card">
+      <h2>Almond Crunch</h2>
+      <p class="price">85 BDT</p>
+      <button type="button" class="btn btn-pink" data-popup-open="flavor-popup" aria-haspopup="dialog">Detail <img src="assets/icon-arrow-white.svg" alt="" width="24" height="24"></button>
+    </div>
+  </article>
+  <article class="flavor">
+    <img class="flavor-img" src="assets/ice-creams/berry-swirl.png" alt="Strawberry swirl soft-serve in a bowl" width="240" height="240" loading="lazy">
+    <div class="flavor-card">
+      <h2>Berry Swirl</h2>
+      <p class="price">70 BDT</p>
+      <button type="button" class="btn btn-pink" data-popup-open="flavor-popup" aria-haspopup="dialog">Detail <img src="assets/icon-arrow-white.svg" alt="" width="24" height="24"></button>
+    </div>
+  </article>
+  <article class="flavor">
+    <img class="flavor-img" src="assets/ice-creams/fudge-sundae.png" alt="Chocolate fudge sundae topped with a cherry" width="240" height="240" loading="lazy">
+    <div class="flavor-card">
+      <h2>Fudge Sundae</h2>
+      <p class="price">95 BDT</p>
+      <button type="button" class="btn btn-pink" data-popup-open="flavor-popup" aria-haspopup="dialog">Detail <img src="assets/icon-arrow-white.svg" alt="" width="24" height="24"></button>
+    </div>
+  </article>
+  <article class="flavor">
+    <img class="flavor-img" src="assets/ice-creams/melon-sorbet.png" alt="Watermelon sorbet scoops in a bowl" width="240" height="240" loading="lazy">
+    <div class="flavor-card">
+      <h2>Melon Sorbet</h2>
+      <p class="price">60 BDT</p>
+      <button type="button" class="btn btn-pink" data-popup-open="flavor-popup" aria-haspopup="dialog">Detail <img src="assets/icon-arrow-white.svg" alt="" width="24" height="24"></button>
+    </div>
+  </article>
+  <article class="flavor">
+    <img class="flavor-img" src="assets/ice-creams/strawberry-scoops.png" alt="Strawberry ice cream scoops with fresh strawberries" width="240" height="240" loading="lazy">
+    <div class="flavor-card">
+      <h2>Strawberry scoops</h2>
+      <p class="price">75 BDT</p>
+      <button type="button" class="btn btn-pink" data-popup-open="flavor-popup" aria-haspopup="dialog">Detail <img src="assets/icon-arrow-white.svg" alt="" width="24" height="24"></button>
+    </div>
+  </article>
+  <article class="flavor">
+    <img class="flavor-img" src="assets/ice-creams/berry-ice-pops.png" alt="Creamy berry ice pops" width="240" height="240" loading="lazy">
+    <div class="flavor-card">
+      <h2>Berry ice pops</h2>
+      <p class="price">45 BDT</p>
+      <button type="button" class="btn btn-pink" data-popup-open="flavor-popup" aria-haspopup="dialog">Detail <img src="assets/icon-arrow-white.svg" alt="" width="24" height="24"></button>
+    </div>
+  </article>
+  <article class="flavor">
+    <img class="flavor-img" src="assets/ice-creams/choc-chip-scoops.png" alt="Chocolate chip ice cream in a cone" width="240" height="240" loading="lazy">
+    <div class="flavor-card">
+      <h2>Choc-chip scoops</h2>
+      <p class="price">80 BDT</p>
+      <button type="button" class="btn btn-pink" data-popup-open="flavor-popup" aria-haspopup="dialog">Detail <img src="assets/icon-arrow-white.svg" alt="" width="24" height="24"></button>
+    </div>
+  </article>
+</section>
+</main>
+
+<!-- ============ FLAVOR DETAIL POP-UP ============ -->
+<!-- Same strawberry content for every flavor until the other flavors are designed. -->
+<dialog class="popup" id="flavor-popup" aria-labelledby="popup-title">
+  <div class="popup-box">
+    <button type="button" class="popup-close" data-popup-close aria-label="Close details">
+      <img src="assets/ice-creams/popup-close.svg" alt="" width="80" height="80">
+    </button>
+
+    <div class="popup-top">
+      <div class="popup-img">
+        <img src="assets/ice-creams/popup-strawberry.png" alt="Strawberry ice cream scoops in a glass bowl with fresh strawberries" width="736" height="1308">
+      </div>
+      <div class="popup-info">
+        <div class="popup-head">
+          <h2 id="popup-title">Strawberry scoops</h2>
+          <p class="popup-price"><strong>75 BDT</strong> <span>per single scoop</span></p>
+        </div>
+        <p class="popup-desc">Made with ripe strawberries from Gazipur farms and fresh Dhaka dairy, churned in small batches every morning. Creamy, bright and just sweet enough, with real fruit pieces in every scoop.</p>
+      </div>
+    </div>
+
+    <div class="popup-cards">
+      <section class="p-card p-peach">
+        <h3>Ingredients</h3>
+        <ul class="p-list">
+          <li>Fresh cow's milk</li>
+          <li>Fresh cream</li>
+          <li>Strawberries (22%)</li>
+          <li>Sugar</li>
+          <li>Skimmed milk powder</li>
+          <li>Locust bean gum (natural stabiliser)</li>
+        </ul>
+      </section>
+      <section class="p-card p-mint">
+        <h3>Nutrition per 100 g</h3>
+        <dl class="p-nutri">
+          <div><dt>Energy</dt><dd>210 kcal</dd></div>
+          <div><dt>Fat</dt><dd>11 g</dd></div>
+          <div><dt>Carbohydrates</dt><dd>24 g</dd></div>
+          <div><dt>of which sugars</dt><dd>21 g</dd></div>
+          <div><dt>Protein</dt><dd>3.8 g</dd></div>
+        </dl>
+      </section>
+      <section class="p-card p-blue">
+        <h3>Allergens &amp; storage</h3>
+        <p>Contains milk. Made in a kitchen that also handles nuts and eggs.</p>
+        <p>Keep frozen at –18°C. Let it soften for 3–5 minutes before scooping, and enjoy within two weeks of opening.</p>
+      </section>
+    </div>
+  </div>
+</dialog>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="newsletter">
+    <div class="nl-copy">
+      <h2>Get New Flavors First</h2>
+      <p>Seasonal drops, members-only offers and a free scoop on your birthday. One email a month, no spam.</p>
+    </div>
+    <form class="nl-form" novalidate>
+      <label class="sr-only" for="nl-email">Email address</label>
+      <input id="nl-email" type="email" name="email" placeholder="Enter your email address" autocomplete="email" required>
+      <button type="submit">Subscribe <img src="assets/icon-arrow-cream.svg" alt="" width="18" height="18"></button>
+      <p class="nl-msg" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+
+  <div class="f-cols">
+    <div class="f-brand">
+      <a class="logo" href="index.html" aria-label="Cremino home">
+        <img src="assets/logo-mark-footer.svg" alt="" width="60" height="60">
+        <span>Cremino</span>
+      </a>
+      <p>Small-batch ice cream churned fresh every morning in Dhaka, with real fruit, fresh milk and no artificial colours.</p>
+      <div class="socials">
+        <a href="#" aria-label="Facebook"><img src="assets/icon-facebook.svg" alt="" width="20" height="20"></a>
+        <a href="#" aria-label="Instagram"><img src="assets/icon-instagram.svg" alt="" width="20" height="20"></a>
+        <a href="#" aria-label="YouTube"><img src="assets/icon-youtube.svg" alt="" width="20" height="20"></a>
+      </div>
+    </div>
+
+    <div class="f-col open">
+      <h3><button type="button" class="acc" aria-expanded="true">Explore <img src="assets/m-icon-chevron-down.svg" alt="" width="20" height="20"></button></h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="ice-creams.html">Flavors</a></li>
+        <li><a href="career.html">Career</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="f-col">
+      <h3><button type="button" class="acc" aria-expanded="false">Help <img src="assets/m-icon-chevron-down.svg" alt="" width="20" height="20"></button></h3>
+      <ul>
+        <li><a href="#">FAQs</a></li>
+        <li><a href="#">Delivery areas</a></li>
+        <li><a href="#">Party &amp; bulk orders</a></li>
+        <li><a href="#">Privacy policy</a></li>
+      </ul>
+    </div>
+    <div class="f-col f-visit">
+      <h3><button type="button" class="acc" aria-expanded="false">Visit Us <img src="assets/m-icon-chevron-down.svg" alt="" width="20" height="20"></button></h3>
+      <ul>
+        <li><img src="assets/icon-pin.svg" alt="" width="18" height="18">Dhanmondi, Dhaka</li>
+        <li><img src="assets/icon-clock.svg" alt="" width="18" height="18">Open daily, 11 AM – 11 PM</li>
+        <li><img src="assets/icon-mail.svg" alt="" width="18" height="18"><a href="mailto:hello@cremino.com.bd">hello@cremino.com.bd</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="f-bottom">
+    <p class="copy">© 2026 Cremino. All rights reserved.</p>
+    <div class="f-bottom-right">
+      <p>We accept bKash, Nagad &amp; cards</p>
+      <button type="button" class="to-top">Back to top <img src="assets/icon-chevron-up.svg" alt="" width="16" height="16"></button>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
