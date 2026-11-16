@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — Cremino</title>
+<meta name="description" content="Visit, call or message Cremino in Dhanmondi, Dhaka. Questions, feedback and party orders welcome.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Noto+Sans:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============ PAGE HERO ============ -->
+<header class="hero hero-page">
+  <div class="wrap">
+    <nav class="nav" aria-label="Main">
+      <a class="logo" href="index.html" aria-label="Cremino home">
+        <img src="assets/logo-mark.svg" alt="" width="60" height="60">
+        <span>Cremino</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="ice-creams.html">Ice-creams</a></li>
+        <li><a href="career.html">Career</a></li>
+        <li><a href="contact.html" class="active" aria-current="page">Contact</a></li>
+      </ul>
+      <button class="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+        <img src="assets/m-icon-menu.svg" alt="" width="22" height="22">
+      </button>
+    </nav>
+
+    <div class="page-head">
+      <div class="page-title">
+        <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a> / <span aria-current="page">Contact</span></nav>
+        <h1>Contact</h1>
+      </div>
+      <img class="page-hero-img" src="assets/about/hero-scoops.png" alt="Vanilla and strawberry scoops with caramel and chocolate drizzle" width="457" height="313">
+    </div>
+  </div>
+</header>
+
+<!-- Mobile menu overlay -->
+<div class="mobile-menu" id="mobile-menu" hidden>
+  <div class="nav">
+    <a class="logo" href="index.html" aria-label="Cremino home">
+      <img src="assets/logo-mark.svg" alt="" width="36" height="36">
+      <span>Cremino</span>
+    </a>
+    <button class="menu-close" type="button" aria-label="Close menu">
+      <img src="assets/m-icon-close.svg" alt="" width="22" height="22">
+    </button>
+  </div>
+  <ul class="mm-links">
+    <li><a href="index.html"><span>Home</span><img src="assets/m-icon-arrow-dark.svg" alt="" width="22" height="22"></a></li>
+    <li><a href="about.html"><span>About</span><img src="assets/m-icon-arrow-dark.svg" alt="" width="22" height="22"></a></li>
+    <li><a href="ice-creams.html"><span>Ice-creams</span><img src="assets/m-icon-arrow-dark.svg" alt="" width="22" height="22"></a></li>
+    <li><a href="career.html"><span>Career</span><img src="assets/m-icon-arrow-dark.svg" alt="" width="22" height="22"></a></li>
+    <li><a href="contact.html" class="active" aria-current="page"><span><i class="dot"></i>Contact</span><img src="assets/m-icon-arrow-pink.svg" alt="" width="22" height="22"></a></li>
+  </ul>
+</div>
+
+<main>
+<!-- ============ WAYS TO REACH US ============ -->
+<section class="reach" aria-labelledby="reach-title">
+  <div class="sec-head">
+    <span class="eyebrow">
+      <span class="doodle l"><span><img src="assets/doodle-left.svg" alt=""></span></span>
+      Get in Touch
+      <span class="doodle r"><span><img src="assets/doodle-right.svg" alt=""></span></span>
+    </span>
+    <h2 id="reach-title">We'd Love to <em>Hear</em> From You</h2>
+  </div>
+
+  <div class="reach-cards">
+    <article class="reach-card peach">
+      <span class="reach-icon"><img src="assets/contact/icon-pin.svg" alt="" width="24" height="24"></span>
+      <h3>Visit Us</h3>
+      <p>House 27, Road 8, Dhanmondi<br>Dhaka 1205</p>
+      <a class="reach-link" href="https://www.google.com/maps/search/?api=1&amp;query=Dhanmondi+Road+8+Dhaka" target="_blank" rel="noopener">Get directions <img src="assets/icon-arrow-dark.svg" alt="" width="20" height="20"></a>
+    </article>
+    <article class="reach-card mint">
+      <span class="reach-icon"><img src="assets/contact/icon-phone.svg" alt="" width="24" height="24"></span>
+      <h3>Call or WhatsApp</h3>
+      <p>+880 1711-234567<br>Every day, 11 AM – 10 PM</p>
+      <a class="reach-link" href="tel:+8801711234567">Call now <img src="assets/icon-arrow-dark.svg" alt="" width="20" height="20"></a>
+    </article>
+    <article class="reach-card blue">
+      <span class="reach-icon"><img src="assets/contact/icon-mail.svg" alt="" width="24" height="24"></span>
+      <h3>Email Us</h3>
+      <p>hello@cremino.com.bd<br>We reply within one working day</p>
+      <a class="reach-link" href="mailto:hello@cremino.com.bd">Send an email <img src="assets/icon-arrow-dark.svg" alt="" width="20" height="20"></a>
+    </article>
+  </div>
+</section>
+
+<!-- ============ MESSAGE FORM + SIDE INFO ============ -->
+<section class="contact-main">
+  <div class="contact-form-card">
+    <div class="cf-step" data-step="form">
+      <h2>Send Us a Message</h2>
+      <p class="cf-intro">Questions, feedback or a flavor you'd love us to try? Drop us a line and we'll get back to you soon.</p>
+
+      <form class="contact-form" novalidate>
+        <div class="field-row">
+          <div class="field">
+            <label for="cf-name">Full name</label>
+            <input id="cf-name" name="name" type="text" autocomplete="name" placeholder="e.g. Nusrat Jahan" required>
+            <p class="field-error" data-for="cf-name">Please enter your name.</p>
+          </div>
+          <div class="field">
+            <label for="cf-phone">Phone number</label>
+            <input id="cf-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="01XXXXXXXXX" required>
+            <p class="field-error" data-for="cf-phone">Please enter a valid Bangladeshi mobile number.</p>
+          </div>
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label for="cf-email">Email <span class="opt">(optional)</span></label>
+            <input id="cf-email" name="email" type="email" autocomplete="email" placeholder="you@example.com">
+            <p class="field-error" data-for="cf-email">Please enter a valid email address.</p>
+          </div>
+          <div class="field">
+            <label for="cf-topic">Topic</label>
+            <select id="cf-topic" name="topic">
+              <option>General question</option>
+              <option>Party &amp; bulk order</option>
+              <option>Feedback</option>
+              <option>Delivery</option>
+            </select>
+          </div>
+        </div>
+        <div class="field">
+          <label for="cf-msg">Message</label>
+          <textarea id="cf-msg" name="message" rows="5" placeholder="How can we help?" required></textarea>
+          <p class="field-error" data-for="cf-msg">Please write a short message.</p>
+        </div>
+        <button type="submit" class="btn btn-pink cf-submit">Send Message <img src="assets/career/icon-arrow-right.svg" alt="" width="20" height="20"></button>
+      </form>
+    </div>
+
+    <div class="cf-step cf-done" data-step="done" role="status" hidden>
+      <img src="assets/logo-mark.svg" alt="" width="64" height="64">
+      <h2 tabindex="-1">Thanks<span data-done-name></span>!</h2>
+      <p>Your message is with our team. We'll reply within one working day, usually much sooner.</p>
+      <button type="button" class="btn btn-light" data-cf-again>Send another message</button>
+    </div>
+  </div>
+
+  <aside class="contact-side">
+    <div class="hours-card">
+      <h3><img src="assets/contact/icon-clock.svg" alt="" width="24" height="24">Opening Hours</h3>
+      <dl class="hours">
+        <div><dt>Shop (every day)</dt><dd>11 AM – 11 PM</dd></div>
+        <div><dt>Home delivery</dt><dd>12 PM – 10 PM</dd></div>
+        <div><dt>Phone &amp; WhatsApp</dt><dd>11 AM – 10 PM</dd></div>
+      </dl>
+      <p class="hours-note">Open on public holidays, too.</p>
+    </div>
+
+    <div class="party-card">
+      <div class="party-copy">
+        <h3>Planning a Party?</h3>
+        <p>Birthdays, office treats or weddings: we deliver 2-litre tubs and scoop carts across Dhaka. Order 3 days ahead.</p>
+        <button type="button" class="btn btn-light btn-sm" data-topic="Party &amp; bulk order">Ask about party orders</button>
+      </div>
+      <img class="party-img" src="assets/explore-contact.png" alt="Vanilla scoops with chocolate sauce in a waffle cone" width="658" height="992" loading="lazy">
+    </div>
+  </aside>
+</section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="newsletter">
+    <div class="nl-copy">
+      <h2>Get New Flavors First</h2>
+      <p>Seasonal drops, members-only offers and a free scoop on your birthday. One email a month, no spam.</p>
+    </div>
+    <form class="nl-form" novalidate>
+      <label class="sr-only" for="nl-email">Email address</label>
+      <input id="nl-email" type="email" name="email" placeholder="Enter your email address" autocomplete="email" required>
+      <button type="submit">Subscribe <img src="assets/icon-arrow-cream.svg" alt="" width="18" height="18"></button>
+      <p class="nl-msg" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+
+  <div class="f-cols">
+    <div class="f-brand">
+      <a class="logo" href="index.html" aria-label="Cremino home">
+        <img src="assets/logo-mark-footer.svg" alt="" width="60" height="60">
+        <span>Cremino</span>
+      </a>
+      <p>Small-batch ice cream churned fresh every morning in Dhaka, with real fruit, fresh milk and no artificial colours.</p>
+      <div class="socials">
+        <a href="#" aria-label="Facebook"><img src="assets/icon-facebook.svg" alt="" width="20" height="20"></a>
+        <a href="#" aria-label="Instagram"><img src="assets/icon-instagram.svg" alt="" width="20" height="20"></a>
+        <a href="#" aria-label="YouTube"><img src="assets/icon-youtube.svg" alt="" width="20" height="20"></a>
+      </div>
+    </div>
+
+    <div class="f-col open">
+      <h3><button type="button" class="acc" aria-expanded="true">Explore <img src="assets/m-icon-chevron-down.svg" alt="" width="20" height="20"></button></h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="ice-creams.html">Flavors</a></li>
+        <li><a href="career.html">Career</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="f-col">
+      <h3><button type="button" class="acc" aria-expanded="false">Help <img src="assets/m-icon-chevron-down.svg" alt="" width="20" height="20"></button></h3>
+      <ul>
+        <li><a href="#">FAQs</a></li>
+        <li><a href="#">Delivery areas</a></li>
+        <li><a href="#">Party &amp; bulk orders</a></li>
+        <li><a href="#">Privacy policy</a></li>
+      </ul>
+    </div>
+    <div class="f-col f-visit">
+      <h3><button type="button" class="acc" aria-expanded="false">Visit Us <img src="assets/m-icon-chevron-down.svg" alt="" width="20" height="20"></button></h3>
+      <ul>
+        <li><img src="assets/icon-pin.svg" alt="" width="18" height="18">Dhanmondi, Dhaka</li>
+        <li><img src="assets/icon-clock.svg" alt="" width="18" height="18">Open daily, 11 AM – 11 PM</li>
+        <li><img src="assets/icon-mail.svg" alt="" width="18" height="18"><a href="mailto:hello@cremino.com.bd">hello@cremino.com.bd</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="f-bottom">
+    <p class="copy">© 2026 Cremino. All rights reserved.</p>
+    <div class="f-bottom-right">
+      <p>We accept bKash, Nagad &amp; cards</p>
+      <button type="button" class="to-top">Back to top <img src="assets/icon-chevron-up.svg" alt="" width="16" height="16"></button>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
